@@ -1,0 +1,3 @@
+Genome assemble 基因體組奘
+1.使用StringTie
+

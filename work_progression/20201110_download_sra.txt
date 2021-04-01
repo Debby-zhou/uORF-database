@@ -1,0 +1,16 @@
+1.已知的uORF為TAIR和uORFdb(ORFlight不算因為來源為TAIR)
+2.novel的uORF為我在NCBI找到的Ribo-seq和RNA-seq去分析出來的uORF
+3.將已知和未知的uORF gene比對，多出來的便是novel、未被記錄過的uORF gene
+
+程式:
+將需要下載很久的sra file先寫成prefetch.sc，在screen中跑就可以持續下載了
+[in general]
+screen -ls: 看目前有多少screen
+screen -r [number]: 回到該screen
+[in screen]
+Ctrl + A + D = 離開該screen
+Ctrl + A + [number] = 快速切換screen
+exit = 關閉當前screen
+
+shell scripts是一個檔案有逐行的執行指令，執行該sc file會執行裏頭逐條的程式碼。
+

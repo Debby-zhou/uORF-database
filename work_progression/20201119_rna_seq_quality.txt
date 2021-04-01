@@ -1,0 +1,12 @@
+1.將載回來的sra file全部移到同一個資料夾底下
+2.將載回來的fastq.gz file全部移到同一個資料夾底下
+3.將fastq整理出品質好的data
+
+注意:
+fastq-dump  -O ../../rnaseq *.sra >> log  2>>error_log
+	>> log是指直接將正常log檔印出，而2是指output為錯誤的log檔
+fastq-dump  -O ../../rnaseq *.sra &>> log
+	&>> log是指不管是正常還是錯誤的log檔都印在一起
+du -sh *
+	印出所有檔案的size
+

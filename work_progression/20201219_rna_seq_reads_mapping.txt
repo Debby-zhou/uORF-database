@@ -1,0 +1,8 @@
+Reads mapping序列比對
+1.在minidconda中下載Hisat2
+2.建立index
+3.每一個SRR fastq檔案去比對產生.sam檔案
+4.使用samtools將sam file(二進位檔案)轉成bam file
+5.使用samtools將bam file進行排序
+
+
